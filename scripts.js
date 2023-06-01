@@ -1,6 +1,6 @@
 function shuffle(array) {
     var curIndex = array.length, randomIndex;
-
+    
     while(0 !== curIndex) {
         randomIndex = Math.floor(Math.random() * curIndex);
         curIndex--;
